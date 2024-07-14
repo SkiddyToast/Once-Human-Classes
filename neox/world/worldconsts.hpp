@@ -1,0 +1,50 @@
+#pragma once
+
+namespace neox::world
+{
+
+		enum class SpaceObjectType
+		{
+			LIGHT = 1,
+			CAMERA,
+			MODEL,
+			SFX,
+			LINE,
+			PRIMITIVES,
+			SPEAKER,
+			REVERB,
+			DECAL,
+			VEGETATION,
+			ROAD,
+			MIRROR,
+			TEXT_OBJECT,
+			SIM_UI_OBJECT,
+			VOLUME_FOG,
+			RENDER_DETAIL_GROUP,
+			PATCH,
+			TERRAIN_CHUNK,
+			OPEN_WORLD_LOD,
+			LANDSCAPE,
+			REFLECTION_PROBE,
+			PROBE,
+			FOLIAGE,
+			CLOTH_WIND,
+			NX_UI_OBJECT,
+			PARTICLE_SYSTEM_NEW,
+			NEW_DECAL,
+			DYNAMIC_IMPOSTER,
+			WILD,
+			ATLANTIS,
+			PREFAB,
+			PREFAB_GROUP,
+			_UNK_33,
+			BUNDLE_SCENE,
+			EDITABLE_COLLIDER_SHAPE,
+			AUDIO_SOURCE,
+			LOCAL_WEATHER,
+			_UNK_38,
+			LOCAL_FOG,
+			PARAM_VOLUME_INSTANCE
+		};	
+	
+}
